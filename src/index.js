@@ -254,6 +254,7 @@ class wbwTexit {
 
 		this.functions["vars"] = {
 			func: (args1, args2, f = null) => {
+				console.warn(`<span style="color: red">[\`\\vars\` 不安全]</span>`);
 				return `<span style="color: red">[\`\\vars\` 不安全]</span>`;
 				if (!args2 || args2 === '')
 					return '';
