@@ -147,4 +147,4 @@ parser.parseToHTML('\\usepackage[copytex]');
 
 ## License
 
-[MIT](./LICENSE)
+[GNU GPLv3.0](./LICENSE)
